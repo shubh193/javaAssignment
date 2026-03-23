@@ -2,7 +2,7 @@ package day2;
 
 public class ConsoleInput {
 	
-	static  int getInt() {
+	public static int getInt() {
 		return Integer.parseInt(getString());
 	}
 	
@@ -17,9 +17,9 @@ public class ConsoleInput {
 			
 			int len = System.in.read(input);
 			
-			byte [] finalOutput = new byte[len - 2];
+			byte [] finalOutput = new byte[len - 1];
 			
-			System.arraycopy(input, 0, finalOutput, 0, len - 2);
+			System.arraycopy(input, 0, finalOutput, 0, len - 1);
 			
 			String objectString = new String(finalOutput);
 			

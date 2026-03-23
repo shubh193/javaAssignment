@@ -1,1 +1,12 @@
+# Build artifacts
 /bin/
+/target/
+
+# Eclipse specific files
+.settings/
+.classpath
+.project
+
+# OS generated files
+.DS_Store
+Thumbs.db
